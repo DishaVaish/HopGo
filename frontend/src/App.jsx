@@ -42,8 +42,8 @@ const App = () => {
           <CaptainProtectWrapper>
             <CaptainHome />
           </CaptainProtectWrapper>
-
         } />
+
     {  /*  <Route path='/riding' element={<Riding />} />
         <Route path='/captain-riding' element={<CaptainRiding />} />
 
