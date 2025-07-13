@@ -209,8 +209,8 @@ const Home = () => {
 
         <div className='h-screen w-screen'> 
           {/* {image for temporary use} */}
-          
-          <img className='h-full w-full object-cover' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTABLUH3RR9WY4ogN9jIsbV0QTaQWXDvEWW1A&s" alt="" />
+            <img className='h-full w-full object-cover' src="https://miro.medium.com/v2/resize:fit:1400/0*gwMx05pqII5hbfmX.gif"alt="" />
+        //   <img className='h-full w-full object-cover' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTABLUH3RR9WY4ogN9jIsbV0QTaQWXDvEWW1A&s" alt="" />
         </div>
 
         <div className=' flex flex-col justify-end h-screen absolute top-0 w-full '>
