@@ -86,17 +86,17 @@ const CaptainHome = () => {
         }
     }, [ ridePopupPanel ])
 
-    // useGSAP(function () {
-    //     if (confirmRidePopupPanel) {
-    //         gsap.to(confirmRidePopupPanelRef.current, {
-    //             transform: 'translateY(0)'
-    //         })
-    //     } else {
-    //         gsap.to(confirmRidePopupPanelRef.current, {
-    //             transform: 'translateY(100%)'
-    //         })
-    //     }
-    // }, [ confirmRidePopupPanel ])
+    useGSAP(function () {
+        if (confirmRidePopupPanel) {
+            gsap.to(confirmRidePopupPanelRef.current, {
+                transform: 'translateY(0)'
+            })
+        } else {
+            gsap.to(confirmRidePopupPanelRef.current, {
+                transform: 'translateY(100%)'
+            })
+        }
+    }, [ confirmRidePopupPanel ])
 
     return (
         <div className='h-screen'>
